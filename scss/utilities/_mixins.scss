@@ -1,0 +1,21 @@
+//====================
+// Variables
+//====================
+
+//Map listing
+
+@mixin list($map){
+    @each $i, $item in $map{
+      &-#{$i} {
+        background-color: $item;
+      }
+    }
+  }
+
+//Center
+
+@mixin center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

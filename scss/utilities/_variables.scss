@@ -1,0 +1,45 @@
+//====================
+// Variables
+//====================
+
+// Colors
+
+$white: #fff;
+
+$color-first: #777; //grey
+$color-second: #58e1c1; //teal
+$color-third: #51ddfc; //light blue
+
+$default-bg: #51ddfc;
+$error-bg: #e4757a;
+$info-bg: #927bc1;
+$success-bg: #63cc82;
+$warning-bg: #fd7856;
+
+$bg-colors: (
+    '1': $info-bg,
+    '2': $warning-bg, 
+    '3': #deb2ee,
+    '4': #7ee6fd,
+    '5': #88d9a0,
+    '6': #4da2bb,
+    '7': #ec9fa3,
+    '8': #fd9f85,
+    '9': $error-bg,
+    '10': $success-bg,
+    '11': $default-bg,
+    '12': #80e8d1,
+);
+
+$img-frame: #ccc;
+
+//Fonts
+//weights
+$font-base: 300;
+$font-bold: 700;
+
+//Breakpoints
+
+$breakpoint: 768px;
+
+$max-size: 1400px;
